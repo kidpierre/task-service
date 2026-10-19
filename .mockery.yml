@@ -1,0 +1,9 @@
+dir: '{{.InterfaceDir}}'
+filename: mocks_test.go
+pkgname: '{{.SrcPackageName}}'
+structname: '{{.Mock}}{{.InterfaceName}}'
+template: testify
+packages:
+  task-service/service:
+    config:
+      all: true
